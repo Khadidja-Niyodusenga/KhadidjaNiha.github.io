@@ -1,96 +1,292 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 	<title>index page</title>
 	<meta charset="utf-8">
 	<meta name="viewport"content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="stylees.css">
 <link rel="stylesheet" type="text/css" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap-responsive.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-</script>
 </head>
 <body>
-	<div class="container">
-<nav class="navbar relative-top navbar-expand-xl">
-	<div class="row">
-    <div class="" style="margin-left:60px;font-size: 2.2em;"><img src="Geeks Ui.png" width=100px height=100px></div>
-	
-    <div class="mt-4" id="navbarColor02">
-      <ul class="navbar-nav me-auto" style="margin-left: 200px;">
-       <li class="nav-item dropdown" style="list-style: none">
-<a class="nav-link dropdown-toggle show" data-bs-toggle="dropdown" 
-href="#" role="button" aria-haspopup="true" aria-expanded="true">Landing</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-       <li class="nav-item dropdown">
- <a class="nav-link dropdown-toggle show" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">Pages</a>
-          <div class="dropdown-menu" data-bs-popper="static">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
- <a class="nav-link dropdown-toggle show" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">Account</a>
-          <div class="dropdown-menu" data-bs-popper="static">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
-        </li>
-      </ul>
+  <div class="container-fluid">
+    <div class="row"> 
+    <div class="d-flex col-3 "><img src="Geeks Ui.png" width=100px height=100px></div>
+  <div class="dropdown col-4 " style="margin-left: 1vw;margin-top: 2vw">
+  <a class="btn dropdown-toggle" type="button" id="#dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Landing
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+  <a class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Pages
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+
+  <a class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Accounts
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
+  <div class="d-flex btn btn-primary justify-content-center col-2 mt-4" style="margin-bottom: 120em;width: 7vw;margin-left: 20vw">Buy Now</div>
+  </div>
+	<div class="row" style="margin-top: -130vw;">
+	<div class="display-2 one mb-5 col-6">
+    <p style="font-size: 4vw">Learn today's most in-</p>
+    <p style="color:blue;text-decoration: underline;text-decoration-color: orange;font-size: 4vw">demand-skills</p>
+<div class="text-secondary" style="margin-top:2vw;font-size: 2vw;">Classses & Courses Website Template to Start creating your stunning website.All templates are fully customizable.
+  <ul class="text-secondary " style="margin-top:1em;margin-left: -10px;">
+    <li>No credit card required</li>
+    <li>Customer service 24/7</li>
+    <li>No setup fee</li>
+    <li>Cancel any time</li>
+  </ul></div>
+    <div class="btn btn-dark text-light w-75" style=" margin-left: 2vw;margin-top: 3vw;height: 3vw;"> Explore Online Course</div>
+  </div>
+  <div class="col-6" >
+  <img src="skils.jpg" height="450px" class="rounded rounded-5">
+</div>
+</div>
+<div class="row"> 
+  <div class="col-6 d-flex text-secondary text-center" style="margin-left: 30vw;margin-top:6vw;float: left;">TRUSTED BY OVER 12,500 GREAT TEAMS</div>
+</div>
+<div class="row" style="margin-top: 3vw;margin-bottom: 70vw;">
+<div class="col-2"> <img src="air.jfif" width=20vw height=50vw></div>
+<div class="col-2"> <img src="ocean.jfif" width=80px height=50px></div>
+<div class="col-2"> <img src="photo.jfif" width=80px height=50px></div>
+<div class="col-3" > <img src="intercom.png" width=80px height=50px></div>
+<div  class="col-3"> <img src="netflix2.jfif" width=80px height=50px></div>
+</div>
+</div>
+<div class="container tr display-2" style="margin-top: -55vw">
+  <div class="row" style="margin-left:30px;">
+    <div class="col-12 hei" style="width: 20em;font-size: 27.5px;font-weight: 20px;">Explore 
+   <p style="color: blue;margin-left: 7.2vw;margin-top: -2.5vw;text-decoration: underline;text-decoration-color: orange">skill Courses</p> </div>
+  </div>
+    <div class="row" style="margin-top:1em;margin-left: 2vw">
+<div class="col- text-secondary" style="font-size: 19px;">Online video courses with new additions published every month
+</div>
+</div>
+<div class="row" style="margin-left:22vw;margin-top: -5em">
+  <div class="row" style="margin-top: 7em;margin-left:-8.3em;height: 8.4em">
+<div class="card   mb-3" style="max-width: 16rem;">
+  <div class="card-header w-100"><img src="one.jfif" class="card-image-top"></div>
+  <div class="card-body">
+    <h5 class="card-title">Leaning Language</h5>
+    <p class="card-text" style="font-size: 14px">4.9 *(31)- 8 hours</p>
+  </div>
+</div>
+</div>
+<div class="row" style="margin-top: -8.4em;height: 8.4em">
+<div class="card   mb-3" style="max-width: 16rem;">
+  <div class="card-header"><img src="two.jfif" class="card-image-top"></div>
+  <div class="card-body">
+    <h5 class="card-title">Coding and Development </h5>
+    <p class="card-text" style="font-size: 14px">5.0 *(221)-2Hours </p>
+</div>
+</div>
+</div>
+<div class="row" style="margin-top: -8.4em;margin-left: 7.6em;height: 8.4em">
+<div class="card  mb-3" style="max-width: 16rem;">
+  <div class="card-header"><img src="three.jfif" class="card-image-top" style="width: 14rem;margin-left: -10px;height: 4.3em"></div>
+  <div class="card-body">
+    <h5 class="card-title">Health Wellness</h5>
+    <p class="card-text" style="font-size: 14px">4.7 *(75)-1 Week </p>
+  </div>
+</div>
+</div>
+<div class="row d-flex" style="margin-top: -8.4em;margin-left: 15.5em;margin-bottom: 14em;height: 8.4em">
+<div class="card  mb-3" style="max-width: 16rem;">
+  <div class="card-header"><img src="four.jfif" class="card-image-top" style="width: 14rem;margin-left: -10px;height: 4.3em"></div>
+  <div class="card-body">
+    <h5 class="card-title">UI/UX Design</h5>
+    <div class="btn btn-success btn-sm">New</div><p class="card-text" style="font-size: 15px;margin-left: 70px;margin-top: -30px">4.9 *(23)-12 Hours </p>
+  </div>
+</div>
+</div>
+</div>
+<div class="row" style="margin-top: -21em;margin-right: -80em;margin-left: 310px">
+  <div class="row" style="margin-top: 7em;margin-left:-8.3em;height: 8.4em">
+<div class="card   mb-3" style="max-width: 16rem;">
+  <div class="card-header w-100"><img src="five.jfif" class="card-image-top" style="width: 14rem;margin-left: -10px;"></div>
+  <div class="card-body">
+    <h5 class="card-title">Content writing</h5>
+    <p class="card-text" style="font-size: 15px">4.9 *(31)- 8 hours</p>
+  </div>
+</div>
+</div>
+<div class="row" style="margin-top: -8.4em;height: 8.4em">
+<div class="card   mb-3" style="max-width: 16rem;">
+  <div class="card-header"><img src="six.jfif" class="card-image-top" style="width: 14rem;margin-left: -10px;"></div>
+  <div class="card-body">
+    <h5 class="card-title">Content Marketing </h5>
+    <p class="card-text" style="font-size: 15px">4.9 *(43)-2 Hours </p>
+</div>
+</div>
+</div>
+<div class="row" style="margin-top: -8.4em;margin-left: 7.6em;height: 8.4em">
+<div class="card  mb-3" style="max-width: 16rem;">
+  <div class="card-header"><img src="seven.jfif" class="card-image-top" style="width: 14rem;margin-left: -12px;height: 4.3em"></div>
+  <div class="card-body">
+    <h5 class="card-title">Learn to Succeed</h5>
+    <p class="card-text" style="font-size: 15px">5.0 *(34)-12 Hours </p>
+  </div>
+</div>
+</div>
+<div class="row d-flex" style="margin-top: -8.4em;margin-left: 15.5em;margin-bottom: 14em;height: 8.4em">
+<div class="card  mb-3" style="max-width: 16rem;">
+  <div class="card-header"><img src="eight.jfif" class="card-image-top" style="width: 14rem;margin-left: -10px;height: 4.3em"></div>
+  <div class="card-body">
+    <h5 class="card-title">Financial Planning</h5>
+    <p class="card-text" style="font-size: 15px">4.9 *(76)-9 Hours </p>
+  </div>
+</div>
+</div>
+</div>
+<div class="d-flex row btn btn-light w-50 align-items-center" style="font-size: 12px;height: 20px;width: 10px;margin-left: -23em;margin-top: -15em;padding-top: 5px;height: 30px">Show More courses</div>
+</div>
+<div class="container">
+  <div class="row " style="margin-left: 3vw;margin-top: -25vw;margin-bottom: 20vw">
+    <div class="col-11" ><h2 style="margin-top: 5vw;margin-left: 20vw">Building strong</h2> <h2 style="color: blue;margin-left: 37vw;margin-top: -3.3vw;text-decoration: underline;text-decoration-color: orange">foundational skills</h2>
+    <div class="col-7 text-secondary" style="margin-left:20.4vw">online courses certification section design for showcase your <p style="margin-left:10vw">certificate program features<p></div></div>
+    <div class="row">
+      <div class="col-6  mt-3" style="height: 24vw"><img src="cert.jfif" width="400vw"; style="margin-left:5vw">
+<ul><li class="text-secondary" style="font-size: 1vw;margin-left:4vw">Completion certificate awarded on every course completion</li></ul>
+      </div>
+      <div class="col-3 text-black mt-3 pt-5" style="height: 24vw;font-size: 1vw;">Learn from Industry Experts
+        <p class="text-secondary">Lorem ipsum dolor sit amet,consectetur adipisicing</p>
+          <p class="text-white">cvukegfugaeuv njhsgrfuvc j,zsvflugsj ndvluirfvjm n,bvulfvjx ,nxdifedtydiyfyifuiieryyyyyyyyyyyyyyyyyyyyyyuyyuyufy</p>
+<p class=""> Learn anytime,Anywhere </p>
+<p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+
+      </div>
+      <div class="col-3  mt-3 pt-5" style="height: 24vw;font-size: 1vw">Free resourses
+        <p class="text-secondary">Lorem ipsum dolor sit amet,consectetur adipisicing</p>
+          <p class="text-white">cvukegfugaeuv njhsgrfuvc j,zsvflugsj ndvluirfvjm n,bvulfvjx ,nxdifedtydiyfyifuiieryyyyyyyyyyyyyyyyyyyyyyuyyuyufy</p>
+<p class="text-black">Skill-based Learning </p>
+<p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
     </div>
-<div class="d-flex  btn btn-primary mt-4" style="margin-left:300px;height: 40px">Buy Now</div>
-	</div>
-  </nav>
+  </div>
 </div>
-  <div class="container">
-	<div class="row">
-	<div class="col-xl-4 col-4" style="margin-top: 5em;margin-left: 5em">
-    <p style="font-size: 2.8vw;">Learn today's most in-<u style="text-decoration-color: orange;" class="text-primary">demand-skills</p></u>
-	<p>Classses & Courses Website Template to Start creating your stunning website.All templates are fully customizable.</p>
-	<ul style="margin-top: 1em">
-		<li>No credit card required</li>
-		<li>Customer service 24/7</li>
-		<li>No setup fee</li>
-		<li>Cancel any time</li>
-	</ul>
-	<div class="btn btn-dark text-light w-50 " style=" margin-left: 1em;margin-top: 1em;font-size: 12px"> Explore Online Course</div>
-</div>
-<div class="col-xl-6 col-6" style="margin-top:5em;margin-left: 3em;height: 6em;">
-	<img src="skils.jpg" height="400px" class="rounded">
+<div class="container-fluid bg-light display-2" style="margin-top: -5vw;height: 40vw;font-family: Bahnschrift SemiBold;">
   <div class="row">
-  <div class="col-xl-12  col-12 text-center" style="margin-top: 7vw;margin-left: -10vw">TRUSTED BY OVER 12,500 GREAT TEAMS</div>
-</div>
-<div class="row text-center">
-<div class="col-xl-3 col-3" style="margin-top: 1vw;margin-right:  -5vw;margin-left: -3vw">
-<a href="#"><img src="face.png" width=30px height=30px></a>
+    <div class="col-6  pt-5 text-black" style="padding-left: 10vw;font-size:3vw;margin-left: 6vw">Learn latest Skills;Advanced<p style="color: blue;text-decoration: underline;text-decoration-color: orange">your career</p> 
+<p class="text-light">hsuidhfuiefisgficb </p>
+<p class="text-secondary"> dolore magna aliqua. Ut enim ad minim veniam,
+</p><div class="btn btn-light border border-2 text-secondary">Get started</div>
+    </div>
+    <div class="col-2 pt-5">
+      <video controls autoplay="muted" width="500vw">
+        <source src="ivic.mp4" type="video/mp4" >
+      </video>
+    </div>
   </div>
-<div class="col-xl-3 col-3 " style="margin-top: 1vw;margin-right:  -1vw">
-<a href="#"><img src="twi.png" width=30px height=30px></a>
-  </div>
-<div class="col-xl-3  col-3" style="margin-top: 1vw;margin-left: -4vw">
-<a href="#"><img src="in.png" width=30px height=30px></a>
-</div>
-<div class="col-xl-3 col-3" style="margin-top: 1vw;margin-left: -5vw">
-<a href="#"><img src="github.png" width=30px height=30px></a>
+  <div class="d-flex flex-row justify-content-center ps-5 card-footer row" style="margin-left: 20vw">
+    <div class="col-4 text-secondary pt-5" style="font-size: 1.5vw"><img src="vid.png" width="20vw" height="20vw">Learn-skill without over24,000 video courses</div>
+     <div class="col-4 pt-5 text-secondary" style="font-size: 1.5vw"><img src="star.png" width="20vw" height="20vw">Choose courses tought by real word experts</div>
+      <div class="col-4  pt-5 text-secondary" style="font-size: 1.5vw"><img src="infi.png" width="20vw" height="20vw">Learn at your own pace,wiyh lifetime access on mobile and desktop</div>
   </div>
 </div>
+<div class="container">
+  <div class="row" style="margin-left: 7vw;margin-top: 6vw;">
+    <div class="col-6"><h1>Upcoming</h1></div>
+     <div class="col-6" style="margin-left: -24vw"><h1 style="color: blue;text-decoration: underline;text-decoration-color: orange">education webinars</h1>
+      <p class="text-secondary" style="margin-left: -14vw">online webinars are amazing opportunities tohave fun and learn</p>
+     </div> 
+    <div class="card  col-4">
+      <section class="card-header"style="background-color: purple;width: 25.3vw;margin-left: -1vw"> 
+      <p style="background-color: purple;color: orange;padding-top:-1vw;font-size: 10px;">WEBINAR SERIES</p>
+      <p class="col-6 text-white" style="padding-top:-5vw">Education Edition Deployment and Set Up</p> 
+      <img src="co.jfif" width="120vw" class="rounded rounded-5" style="margin-left: 12vw;margin-top: -10vw">
+    </section>
+    <section class="card-body">
+      <p> Education Edition Deployment and S...</p><br>
+ <p> Thu,November 10,2023</p>
+<p> 6:00 PM-8:00 PM GMT</p>
+<p class="dflex btn btn-light  border">Register Now</p>
+    </section>
+      </div>
+    <div class="card col-4" > 
+     <section class="card-header"style="background-color: purple;width: 25.3vw;margin-left: -1vw;height: 11.7vw"> 
+      <p style="background-color: purple;color: orange;padding-top:-1vw;font-size: 10px;">WEBINAR SERIES</p>
+      <p class="col-7 text-white" style="padding-top:-5vw">Build a collaborative classroom</p> 
+      <img src="ce.jfif" width="110vw" class="rounded rounded-5" style="margin-left: 14vw;margin-top: -7vw">
+    </section>
+    <section class="card-body">
+      <p> Build a Collaborative Classroom</p><br>
+ <p> Thu,June 26,2023</p>
+<p> 8:00 AM PDT</p>
+<p class="dflex btn btn-light  border">Register Now</p>
+    </section>
+  </div>
+    <div class=" card col-4" >  
+     <section class="card-header"style="background-color: purple;width: 25.3vw;margin-left: -1vw;height: 11.7vw"> 
+      <p style="background-color: purple;color: orange;padding-top:-1vw;font-size: 10px;">WEBINAR SERIES</p>
+      <p class="col-6 text-white" style="padding-top:-5vw">Increase Reading And Language Skill</p> 
+      <img src="ci.jfif" width="140vw" class="rounded rounded-5" style="margin-left: 12vw;margin-top: -7vw">
+    </section>
+    <section class="card-body">
+      <p> Build a Collaborative Classroom</p><br>
+ <p> Thu,June 26,2023</p>
+<p> 10:00 PM IST</p>
+<p class="dflex btn btn-light  border">Register Now</p>
+    </section></div>
+  </div>
+  </div>
 </div>
+<div class="container" style="margin-left: 15vw;">
+  <div class="row bg-primary rounded rounded-3"  style="margin-top: 12vw">
+    <div class="col-6 text-white" style="font-size: 45px">Let's find the right course for you!
+<p class="text-white" style="font-size: 16px">....and achieve their learning goals.with our expert tutors,your goals are closer than ever</p><p class="btn bg-dark text-white">Start learning</p>
+    </div>
+    <div class="col-6"><img src="blue.jfif" width="650vw" height="300vw"></div>
+  </div>
+  <div class="row">
+    <div class="col-3" style="margin-left:40vw;font-size: 2.2vw;margin-top:3vw;margin-bottom: -70em"><img src="Geeks Ui.png" width=100px height=100px></div></div>
+    <div class="row">
+    <div class="col-6 text-secondary text-center" style="margin-left:24vw;font-size: 1vw;margin-top:7.8vw;margin-bottom: -70em">
+      Geek is feature rich components and beautifully boostrap 5 template for developers,built with boostrap responsive framework.
+    </div></div>
+    <div class="row " style="display: inline-block;margin-top: 12vw;margin-left: 25vw;text-decoration:none">
+    <a href="#" class="text-secondary" style="text-decoration:none">About</a>
+    <a href="#" class="text-secondary" style="border-left-style:solid;text-decoration:none">Careers</a>
+    <a href="#" class="text-secondary" style="border-left-style:solid;text-decoration:none">Contact</a>
+    <a href="#" class="text-secondary" style="border-left-style:solid;text-decoration:none">Pricing</a>
+    <a href="#" class="text-secondary" style="border-left-style:solid;text-decoration:none">Affilliate</a>
+    <a href="#"  class="text-secondary"style="border-left-style:solid;text-decoration:none">Help</a>
+    <a href="#" class="text-secondary" style="border-left-style:solid;text-decoration:none">Investors</a>
+    </div></div>
+    <div class="card row" style=";margin-top: 1vw">
+    <div class="col-5 text-secondary text-center" style="margin-left:6vw;font-size: 1vw;margin-top:7.8vw;margin-bottom: -70em">
+     &copy;2023Geeks-UI,Inc .All Rights Reserved
+    <div class="col-6 text-secondary  text-center" style="margin-left:35vw;margin-top:-1.5vw;">
+     Privacy Policy Cookie Notice Terms to Use
+    </div>
+    <div class="col-4 d-flex" style="margin-left: 68vw;margin-top:-1.8vw;">
+  <a href="#"><img src="face.png" width=30px height=30px></a>
+  <a href="#"><img src="twi.png" width=30px height=30px></a>
+  <a href="#"><img src="github.png" width=30px height=30px></a>
 </div>
+    </div>
+    </div>
+  </div>
 </div>
 
 
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>
